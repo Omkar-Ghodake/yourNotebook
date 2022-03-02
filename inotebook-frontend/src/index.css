@@ -1,0 +1,82 @@
+/* scroll-bar */
+.personalised-scrollbar ::-webkit-scrollbar {
+	width: 5px;
+}
+.personalised-scrollbar ::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+.personalised-scrollbar ::-webkit-scrollbar-thumb {
+	background: #dee2e6;
+	border-radius: 11px;
+}
+.personalised-scrollbar ::-webkit-scrollbar-thumb:hover {
+	background: #cacbcc;
+}
+
+i {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50px;
+}
+i:hover {
+  background-color: whitesmoke;
+}
+
+.add-note, .display-notes {
+  padding: 1rem !important;
+}
+
+.card .card-text{
+  height: 27vh;
+  overflow: auto;
+}
+
+.card .card-title{
+  overflow: auto;
+}
+
+.row {}
+
+/* .card-body {
+  height: 47vh;
+} */
+
+.card-title {
+  height: 8vh;
+}
+
+.alert {
+  height: 2rem;
+  padding: 0.5rem !important;
+  margin: 0 !important;
+}
+.btn-close {
+  margin: 0 !important;
+  padding: 0.5rem !important;
+}
+
+@media screen and (min-width: 992px) {
+  .add-note {
+    border-right: 0.3px solid #dee2e6 !important;
+    width: 30% !important;
+  }
+  
+  .display-notes {
+    border-left: 0.3px solid #dee2e6 !important;
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .add-note {
+    border-bottom: 0.3px solid #dee2e6 !important;
+  }
+  
+  .display-notes {
+    border-top: 0.3px solid #dee2e6 !important;
+  }
+  .add-note, .display-notes {
+    padding: 1.5rem 0 !important;
+  }
+  
+}
+
